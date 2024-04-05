@@ -47,11 +47,11 @@
         android:layout_height="wrap_content"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="parent"
+        app:layout_constraintLeft_toLeftOf="@+id/next_btn"
         app:layout_constraintVertical_bias=".4"
-        app:layout_constraintRight_toLeftOf="@+id/cancel_btn"
-        android:id="@+id/next_btn"
-        android:text="next"
+        android:id="@+id/cancel_btn"
+        android:text="cancel"
         />
 
     <Button
@@ -59,11 +59,11 @@
         android:layout_height="wrap_content"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintLeft_toRightOf="@+id/next_btn"
+        app:layout_constraintLeft_toRightOf="parent"
         app:layout_constraintVertical_bias=".4"
-        android:id="@+id/cancel_btn"
-        android:text="cancel"
+        app:layout_constraintRight_toRightOf="@+id/cancel_btn"
+        android:id="@+id/next_btn"
+        android:text="next"
         />
 
 
